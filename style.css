@@ -1,0 +1,28 @@
+/* the whole page */
+body {
+  margin: 0;
+  background: #ffffff;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+/* p5 makes its <canvas> inline by default, which leaves a tiny gap under it.
+   display: block removes that gap. */
+canvas {
+  display: block;
+}
+
+input {
+  position: absolute;
+  width: 150px;
+  height: 38px;
+  box-sizing: border-box;
+  border: 3px solid #b5e61d;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #333333;
+  outline: none;
+}
